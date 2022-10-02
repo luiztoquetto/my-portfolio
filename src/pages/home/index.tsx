@@ -1,9 +1,13 @@
 import { ReactElement } from "react";
+import { GlobeVisualEffect } from "../../components/globeVisualEffect";
 
 import * as S from './styles';
 
 export function Home(): ReactElement {
     return (
-        <S.Container>olá mundo!</S.Container>
+        <>
+            <GlobeVisualEffect/>
+            <S.Container>olá mundo!</S.Container>
+        </>
     )
 }
