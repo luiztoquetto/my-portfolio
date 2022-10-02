@@ -1,8 +1,12 @@
+import { GlobalStyles } from "./styles/global";
+
 function App() {
   return (
-    <div className="App">
-      olá mundo
-    </div>
+      <>
+        <GlobalStyles/>
+
+        <span>Olá Mundo!</span>
+      </>
   )
 }
 
