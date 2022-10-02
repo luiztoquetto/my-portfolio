@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, ReactElement } from 'react';
+
 import * as S from './styles';
 
 // @ts-ignore
